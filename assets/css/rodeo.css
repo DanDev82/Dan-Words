@@ -1,0 +1,119 @@
+nav {
+	background: lightblue;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid white;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2014/12/30/21/30/bull-riding-584403_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+	font-family: "Shadows Into Light Two";
+}
+
+h1 {
+	margin-top: -80px;
+	font-size: 50px;
+	color: white;
+	font-weight: 800;
+	float: right;
+	padding-right: 20px;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px 3px black;
+}
+
+.wrapper {
+	margin-top:200px;
+}
+
+.wrapper input {
+	background-image: url("https://cdn.pixabay.com/photo/2016/02/21/14/31/wood-1213664_960_720.jpg");
+	width: 100%;
+	height: 120px;
+	font-size: 80px;
+	border-radius: 6px;
+	text-shadow: 2px 2px lightblue;
+	padding-left: 10px;
+	letter-spacing: 2px;
+}
+
+input:focus {
+	outline: none !important;
+	border: 1px solid lightblue;
+	box-shadow: 5px 5px 2px lightblue;
+}
+
+.nav {
+	font-size: 20px;
+	padding: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.next {
+	width: 200px;
+	height: 75px;
+	align-content: center;
+	color: white;
+	font-weight: 800;
+	font-size: 32px;
+	letter-spacing: 2px;
+}
+
+.next:hover {
+	box-shadow: 2px 2px 2px lightblue;
+}
+
+.restart {
+	width: 200px;
+	height: 75px;
+	align-content: center;
+	color: white;
+	font-weight: 800;
+	font-size: 32px;
+	letter-spacing: 2px;
+}
+
+.restart:hover {
+	box-shadow: 2px 2px 2px lightblue;	
+}
+
+span {
+	padding: 20px 0;
+}
+
+.wrapper-button {
+	padding: 30px 0 0 0;
+}
+
+label {
+	width: 200px;
+	font-size: 75px;
+	font-weight: 800;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	letter-spacing: 3px;
+}
+
+#story {
+	background-image: url("https://cdn.pixabay.com/photo/2016/02/21/14/31/wood-1213664_960_720.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Shadows Into Light Two";
+	font-size: 50px;
+	/*background: #EEEEEE;*/
+	border-radius: 10px;
+	box-shadow: 3px 3px black;
+	padding: 20px;
+	color: #C6C5C5;
+	text-shadow: 2px 2px lightblue;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
